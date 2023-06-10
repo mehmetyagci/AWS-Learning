@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "On8KMV8UbXE7moz9SC9GXZCWmOO79z+1iMIK6JQF1XNzjSGaF8Lw0FNUOpxm1Zz2c8RKPkMDnqjp9UuEYnfVLw==",
+  "success": true,
+  "projectFilePath": "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.1.SqsPublisher\\3.1.SqsPublisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\awssdk.core\\3.7.107.4\\awssdk.core.3.7.107.4.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\awssdk.sqs\\3.7.103.1\\awssdk.sqs.3.7.103.1.nupkg.sha512"
+  ],
+  "logs": []
+}

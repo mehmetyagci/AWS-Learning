@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.2.SqsConsumer\\3.2.SqsConsumer.csproj": {}
+  },
+  "projects": {
+    "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.2.SqsConsumer\\3.2.SqsConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.2.SqsConsumer\\3.2.SqsConsumer.csproj",
+        "projectName": "3.2.SqsConsumer",
+        "projectPath": "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.2.SqsConsumer\\3.2.SqsConsumer.csproj",
+        "packagesPath": "C:\\Users\\MehmetYagci\\.nuget\\packages\\",
+        "outputPath": "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\3.2.SqsConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MehmetYagci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.103.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
