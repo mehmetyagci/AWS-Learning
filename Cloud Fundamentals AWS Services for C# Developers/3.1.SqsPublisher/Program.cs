@@ -2,6 +2,11 @@
 using Amazon.SQS.Model;
 using System.Text.Json;
 
+using Amazon.Runtime;
+
+//var awsCredentials = new BasicAWSCredentials("AKIA3KS576WYRV7ABYXZ", "EvZCcJHPyDbTr9f75F+6qn+YZSOKHGEIydwOr6Sj");
+//var sqsClient = new AmazonSQSClient(awsCredentials);  
+// default
 var sqsClient = new AmazonSQSClient();
 
 var customer = new CustomerCreated {

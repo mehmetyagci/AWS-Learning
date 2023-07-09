@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSFundamentalsCourse", "AWSFundamentalsCourse.csproj", "{D1B4D63E-59F9-417A-A424-BA4C12FAAAE3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.SqsPublisher", "..\3.1.SqsPublisher\3.1.SqsPublisher.csproj", "{1A08B1BE-9DA5-4340-9560-7A32795165B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2.SqsConsumer", "..\3.2.SqsConsumer\3.2.SqsConsumer.csproj", "{BA3E121F-5129-4767-B77C-93BF78C72F49}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.3.Customers.Api", "..\3.3.Customers.Api\3.3.Customers.Api.csproj", "{3F0330E2-7D63-4042-A4FB-3A170A279252}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "..\..\..\Users\MehmetYagci\Downloads\3.6\aws-fundamentals-final-master\3.Sqs\Customers.Api\Customers.Api.csproj", "{B128F756-1934-47CD-8B49-7097878F667E}"
 EndProject
@@ -19,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1B4D63E-59F9-417A-A424-BA4C12FAAAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1B4D63E-59F9-417A-A424-BA4C12FAAAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1B4D63E-59F9-417A-A424-BA4C12FAAAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1B4D63E-59F9-417A-A424-BA4C12FAAAE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A08B1BE-9DA5-4340-9560-7A32795165B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A08B1BE-9DA5-4340-9560-7A32795165B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A08B1BE-9DA5-4340-9560-7A32795165B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,10 +23,6 @@ Global
 		{BA3E121F-5129-4767-B77C-93BF78C72F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3E121F-5129-4767-B77C-93BF78C72F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3E121F-5129-4767-B77C-93BF78C72F49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F0330E2-7D63-4042-A4FB-3A170A279252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F0330E2-7D63-4042-A4FB-3A170A279252}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F0330E2-7D63-4042-A4FB-3A170A279252}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F0330E2-7D63-4042-A4FB-3A170A279252}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B128F756-1934-47CD-8B49-7097878F667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B128F756-1934-47CD-8B49-7097878F667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B128F756-1934-47CD-8B49-7097878F667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
