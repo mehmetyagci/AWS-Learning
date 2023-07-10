@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "9GxWTBn9gsOBNmMzDGYHb490fY4pFgUtlYoirGLJGQkUSlUyAeZLskz+3cKeJOAoJzsO1dpdYh97sXGlScsaHQ==",
+  "success": true,
+  "projectFilePath": "C:\\AWS-Learning\\Cloud Fundamentals AWS Services for C# Developers\\AWSFundamentalsCourse\\3.3.Customers.Consumer\\3.3.Customers.Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\awssdk.core\\3.7.108.1\\awssdk.core.3.7.108.1.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\awssdk.sqs\\3.7.103.10\\awssdk.sqs.3.7.103.10.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\MehmetYagci\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

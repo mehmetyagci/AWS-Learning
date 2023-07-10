@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hWSHTiwtFlbikOfa2VwVPtI9TsMO8mkYzIz1VBa3nUM=",
+  "Source": "3.3.Customers.Consumer",
+  "BasePath": "_content/3.3.Customers.Consumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
