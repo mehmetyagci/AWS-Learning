@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\3.3.Customers.Consumer.props" />
-</Project>
