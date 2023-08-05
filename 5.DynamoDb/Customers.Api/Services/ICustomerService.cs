@@ -7,7 +7,8 @@ public interface ICustomerService
     Task<bool> CreateAsync(Customer customer);
 
     Task<Customer?> GetAsync(Guid id);
-    Task<Customer?> GetByEmailAsync(string idOrEmail);
+    
+    Task<Customer?> GetByEmailAsync(string email);
 
     Task<IEnumerable<Customer>> GetAllAsync();
 

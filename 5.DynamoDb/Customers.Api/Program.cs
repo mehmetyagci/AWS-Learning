@@ -26,7 +26,7 @@ builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
 builder.Services.AddSingleton<ICustomerService, CustomerService>();
 builder.Services.AddSingleton<IGitHubService, GitHubService>();
 
-builder.Services.AddSingleton<IAmazonDynamoDB,  AmazonDynamoDBClient>();
+builder.Services.AddSingleton<IAmazonDynamoDB, AmazonDynamoDBClient>();
 
 builder.Services.AddHttpClient("GitHub", httpClient =>
 {

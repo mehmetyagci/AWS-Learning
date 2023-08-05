@@ -27,36 +27,23 @@ public class CustomerController : ControllerBase
         return CreatedAtAction("Get", new { customerResponse.Id }, customerResponse);
     }
 
-    //[HttpGet("customers/{id:guid}")]
-    //public async Task<IActionResult> Get([FromRoute] Guid id)
-    //{
-    //    var customer = await _customerService.GetAsync(id);
-
-    //    if (customer is null)
-    //    {
-    //        return NotFound();
-    //    }
-
-    //    var customerResponse = customer.ToCustomerResponse();
-    //    return Ok(customerResponse);
-    //}
-
     [HttpGet("customers/{idOrEmail}")]
-    public async Task<IActionResult> Get([FromRoute] string idOrEmail) {
-
-        var  isGuid = Guid.TryParse(idOrEmail, out var id);
-
+    public async Task<IActionResult> Get([FromRoute] string idOrEmail)
+    {
+        var isGuid = Guid.TryParse(idOrEmail, out var id);
+        
         var customer = isGuid ? await _customerService.GetAsync(id)
-            : await _customerService.GetByEmailAsync(idOrEmail);
+                : await _customerService.GetByEmailAsync(idOrEmail);
 
-        if (customer is null) {
+        if (customer is null)
+        {
             return NotFound();
         }
 
         var customerResponse = customer.ToCustomerResponse();
         return Ok(customerResponse);
     }
-
+    
     [HttpGet("customers")]
     public async Task<IActionResult> GetAll()
     {
@@ -67,11 +54,10 @@ public class CustomerController : ControllerBase
     
     [HttpPut("customers/{id:guid}")]
     public async Task<IActionResult> Update(
-        [FromMultiSource] UpdateCustomerRequest request, DateTime requestStarted)
+        [FromMultiSource] UpdateCustomerRequest request)
     {
-
         var requestedStarted = DateTime.UtcNow;
-
+        
         var existingCustomer = await _customerService.GetAsync(request.Id);
 
         if (existingCustomer is null)

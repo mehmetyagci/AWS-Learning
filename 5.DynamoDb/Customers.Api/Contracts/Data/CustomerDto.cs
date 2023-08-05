@@ -1,16 +1,15 @@
 ﻿using System.Text.Json.Serialization;
-using ThirdParty.Json.LitJson;
 
 namespace Customers.Api.Contracts.Data;
 
 public class CustomerDto
 {
     [JsonPropertyName("pk")]
-    public string Pk  => Id.ToString();
+    public string Pk => Id.ToString();
 
     [JsonPropertyName("sk")]
     public string Sk => Id.ToString();
-
+    
     public Guid Id { get; init; } = default!;
 
     public string GitHubUsername { get; init; } = default!;
