@@ -1,10 +1,12 @@
 ﻿using Amazon.SQS;
 using Amazon.SQS.Model;
 
+var queueName = args.Length == 1 ? args[0] : "customers";
+
 var cts = new CancellationTokenSource();
 var sqsClient = new AmazonSQSClient();
 
-var queueUrlResponse = await sqsClient.GetQueueUrlAsync("customers");
+var queueUrlResponse = await sqsClient.GetQueueUrlAsync(queueName);
 
 var receiveMessageRequest = new ReceiveMessageRequest
 {
@@ -24,7 +26,7 @@ while (!cts.IsCancellationRequested)
 
         await sqsClient.DeleteMessageAsync(queueUrlResponse.QueueUrl, message.ReceiptHandle);
     }
-    await Task.Delay(3000);
+    await Task.Delay(500);
 }
 
 
